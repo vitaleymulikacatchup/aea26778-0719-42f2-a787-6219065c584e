@@ -14,7 +14,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal 
           logoSrc="/images/logo.svg" 
-          logoAlt="Futuris" 
           buttonText="Get Started" 
         />
       </div>
@@ -68,7 +67,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasisBackgroundGradient 
           logoSrc="/images/logo.svg" 
-          logoAlt="Futuris" 
           logoText="Futuris" 
           items={[
             { label: 'Privacy Policy', onClick: () => console.log('Privacy clicked') },
